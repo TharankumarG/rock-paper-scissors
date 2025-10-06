@@ -115,7 +115,7 @@ img:hover{
   }
 
   #block-container {
-    height: auto;
+    height: 450px;
     padding: 20px;
   }
 
@@ -228,4 +228,5 @@ img:hover{
     padding: 7px 12px;
   }
 }
+
 
