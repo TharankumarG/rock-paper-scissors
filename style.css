@@ -96,8 +96,6 @@ img:hover{
     font-family: sans-serif;
     font-size: large;
 }
-
-/* Tablet View */
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
@@ -115,7 +113,7 @@ img:hover{
   }
 
   #block-container {
-    height: auto;
+    height: 470px;
     padding: 20px;
   }
 
@@ -137,8 +135,6 @@ img:hover{
     height: 140px;
     transition: 0.5s;
   }
-
-  /* Center and resize popup */
   #resultpopup {
     width: 80%;
     height: auto;
@@ -207,8 +203,6 @@ img:hover{
     height: 115px;
     transition: 0.5s;
   }
-
-  /* Popup scaling for small screens */
   #resultpopup {
     width: 90%;
     height: auto;
@@ -236,4 +230,5 @@ img:hover{
     padding: 7px 12px;
   }
 }
+
 
