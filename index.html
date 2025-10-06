@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock,Paper,Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="handimg.png">
+</head>
+<body>
+    <section>
+        <div>
+            <nav>
+                <h1>Rock ,Paper ,Scissors <span id="nav-span">Game</span></h1>
+            </nav>
+        </div>
+    </section>
+
+        <div id="block-container">
+            <center>
+                <div>
+                    <h2>Play <span id="block-span">Rock,Paper,Scissors</span> with computer.</h2>
+                </div>
+                <div id="img-div">
+                    <div>
+                        <img onclick="play(this)"  value="Rock" src="rockimg.png" alt="rockimg">
+                        <img onclick="play(this)"  value="Paper" src="paperimg.png" alt="paperimg">
+                        <img onclick="play(this)" value="Scissors" src="scissorimg.png" alt="scissorsimg">
+                    </div>
+                </div>
+            </center>
+        </div>
+    <div id="popup">    
+    <div id="resultpopup">
+    </div>
+    </div>    
+    <div id="footer">
+        <center>
+        <h1 id="footer-text">@rock,paper,scissors game</h1>
+        </center>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
